@@ -1,1 +1,1 @@
-console.log("hllo rekt");
+console.log("hello rekt");
