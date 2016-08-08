@@ -9,13 +9,13 @@ if(navigator.geolocation) {
 
 $(document).ready(function () {
   var $loginBtn = $('#login');
-  var $signInView = $('#longName');
+  var $signInView = $('.sign-in-view');
   var $imageResultsView = $('.image-results-view');
   var $div = $('.images');
 
   // initialize the SDK with our API key
  _500px.init({
-   sdk_key: '8626d07001b7482e7707a6248a3b28bcaf22fd23'
+   sdk_key: 'e2c5bf73927b9cb59e144a207fe2fa4acf5e4264'
  });
 
  _500px.getAuthorizationStatus(function (status) {
